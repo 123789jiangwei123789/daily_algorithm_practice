@@ -1,6 +1,7 @@
 /**解题思路 */
 //自解：两次循坏，第二个for循坏下标始终是第一个for下标+1，满足条件则push进结果数组，最后去重
 //官解：(哈希表)一次循环，利用map，在map.set用目标值减去当前数组值作为key，当前下标作为value，如果在map里面找到当前值，则返回
+
 /**自己实现 */
 // function twoSum(nums: number[], target: number): number[] {
 //   let resultArr: number[] = []
